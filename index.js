@@ -1,7 +1,10 @@
 function hello() {
-  console.log("hola mundo");
+  //return
+  return "Hola Mundo";
 }
 
 //call function
 
-hello();
+// save return
+const result = hello();
+console.log(result);
