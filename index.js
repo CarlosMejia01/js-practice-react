@@ -1,10 +1,5 @@
-function hello(name) {
-  //return
-  return "Hola " + name;
+function add(x, y) {
+  return x + y;
 }
 
-//call function
-
-console.log(hello("Ryan"));
-console.log(hello("Jesus"));
-console.log(hello("Maria"));
+console.log(add(10, 20));
