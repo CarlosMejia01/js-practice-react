@@ -1,10 +1,10 @@
-function hello() {
+function hello(name) {
   //return
-  return function () {
-    return "Hola Mundo";
-  };
+  return "Hola " + name;
 }
 
 //call function
 
-console.log(console.log(hello()()));
+console.log(hello("Ryan"));
+console.log(hello("Jesus"));
+console.log(hello("Maria"));
