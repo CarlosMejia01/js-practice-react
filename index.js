@@ -9,7 +9,7 @@ const user = {
   },
   friends: ["brandon", "elena"],
   active: true,
-  sendMail: function () {
+  sendMail() {
     return "Sending Email...";
   },
 };
@@ -17,3 +17,4 @@ const user = {
 console.log(user.name);
 console.log(user.address.city);
 console.log(user.friends);
+console.log(user.sendMail());
