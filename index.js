@@ -1,20 +1,10 @@
-const user = {
-  name: "ryan",
-  lastname: "perez",
-  age: 30,
-  address: {
-    country: "Colombia",
-    city: "Bogota",
-    street: "main street 123",
-  },
-  friends: ["brandon", "elena"],
-  active: true,
-  sendMail() {
-    return "Sending Email...";
-  },
+const name = "laptop";
+const price = 3000;
+
+const newProduct = {
+  name,
+  price,
 };
 
-console.log(user.name);
-console.log(user.address.city);
-console.log(user.friends);
-console.log(user.sendMail());
+console.log(name);
+console.log(price);
