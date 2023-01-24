@@ -1,10 +1,8 @@
-const name = "laptop";
-const price = 3000;
+const title = document.createElement("h1");
+title.innerText = "Hola mundo desde JS";
 
-const newProduct = {
-  name,
-  price,
-};
+const button = document.createElement("button");
+button.innerText = "click";
 
-console.log(name);
-console.log(price);
+document.body.append(title);
+document.body.append(button);
