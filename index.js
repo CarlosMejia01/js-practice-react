@@ -14,4 +14,6 @@ const user = {
   },
 };
 
-console.log(user);
+console.log(user.name);
+console.log(user.address.city);
+console.log(user.friends);
