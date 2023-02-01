@@ -1,27 +1,4 @@
 const names = ["ryan", "joe", "maria"];
+const newNames = ["marcos", "mario", "john"];
 
-// for (let i = 0; i < names.length; i++) {
-//   const element = names[i];
-//   console.log(element);
-// }
-
-const newNames = names.map(function (name) {
-  return `Hola ${name}`;
-});
-console.log(newNames);
-
-//array find
-const nameFound = names.find(function (name) {
-  if (name == "joe") {
-    return name;
-  }
-});
-
-//array filter
-const namesFiltered = names.filter(function (name) {
-  if (name != "joe") {
-    return name;
-  }
-});
-
-console.log(namesFiltered);
+console.log(names.concat(newNames));
