@@ -10,4 +10,4 @@ export const title = "js for react";
 export const active = true;
 export const points = [10, 20, 30];
 
-export default title;
+export default points;
