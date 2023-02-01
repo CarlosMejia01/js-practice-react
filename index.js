@@ -17,4 +17,11 @@ const nameFound = names.find(function (name) {
   }
 });
 
-console.log(findName);
+//array filter
+const namesFiltered = names.filter(function (name) {
+  if (name != "joe") {
+    return name;
+  }
+});
+
+console.log(namesFiltered);
