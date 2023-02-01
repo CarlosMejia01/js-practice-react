@@ -1,8 +1,5 @@
-const person = {
-  name: "ryan",
-  address: {
-    city: "london",
-  },
-};
+fetch("https://jsonplaceholder.typicode.com/posts").then(function () {
+  console.log("finalizo la carga");
+});
 
-console.log(person.location?.city);
+console.log("linea 2");
