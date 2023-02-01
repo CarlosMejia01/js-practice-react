@@ -1,7 +1,7 @@
 const button = document.createElement("button");
 button.innerText = "click me";
 
-button.addEventListener("click", function () {
+button.addEventListener("click", () => {
   alert("click");
 });
 
