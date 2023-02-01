@@ -1,16 +1,3 @@
-const user = {
-  name: "ryan",
-  lastname: "ray",
-};
+import { add } from "./add.js";
 
-const address = {
-  street: "main street 123",
-  city: "bogota",
-};
-
-const userInfo = {
-  ...user,
-  ...address,
-};
-
-console.log(userInfo);
+console.log(add(10, 5));
