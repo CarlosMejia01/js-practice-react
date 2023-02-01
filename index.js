@@ -1,3 +1,8 @@
-import addModule from "./add.js";
+const person = {
+  name: "ryan",
+  address: {
+    city: "london",
+  },
+};
 
-console.log(addModule());
+console.log(person.location?.city);

@@ -1,4 +1,4 @@
-export function add(x, y) {
+export function add(x = 0, y = 0) {
   return x + y;
 }
 
