@@ -1,16 +1,20 @@
-const background = "red";
-const color = "white";
-const isAuthorized = true;
+const names = ["ryan", "joe", "maria"];
 
-const button = document.createElement("button");
-button.innerText = "click me";
-button.style = `background: ${
-  isAuthorized ? "blue" : background
-}; color: ${color}`;
+// for (let i = 0; i < names.length; i++) {
+//   const element = names[i];
+//   console.log(element);
+// }
 
-button.addEventListener("click", () => {
-  if (isAuthorized) return alert("esta autorizado");
-  alert("no esta autorizado");
+const newNames = names.map(function (name) {
+  return `Hola ${name}`;
+});
+console.log(newNames);
+
+//array find
+const nameFound = names.find(function (name) {
+  if (name == "joe") {
+    return name;
+  }
 });
 
-document.body.append(button);
+console.log(findName);
