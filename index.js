@@ -1,4 +1,16 @@
-const names = ["ryan", "joe", "maria"];
-const newNames = ["marcos", "mario", "john"];
+const user = {
+  name: "ryan",
+  lastname: "ray",
+};
 
-console.log([...names, ...newNames]);
+const address = {
+  street: "main street 123",
+  city: "bogota",
+};
+
+const userInfo = {
+  ...user,
+  ...address,
+};
+
+console.log(userInfo);
