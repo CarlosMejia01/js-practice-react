@@ -1,3 +1,3 @@
 import addModule from "./add.js";
 
-console.log(addModule);
+console.log(addModule());
